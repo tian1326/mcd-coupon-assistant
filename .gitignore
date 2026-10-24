@@ -1,0 +1,18 @@
+# 含密钥 / 本地配置，绝不提交
+.env
+*.local.json
+mcp.json
+mcp-config.local.json
+
+# Python 缓存
+__pycache__/
+*.pyc
+.venv/
+
+# 操作系统
+.DS_Store
+Thumbs.db
+
+# 本地联调产物
+*.local.md
+_dist/
